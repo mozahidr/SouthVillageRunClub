@@ -1,0 +1,233 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;;
+    font-size: 1rem;
+    font-weight: 400;
+}
+h1, h2 {
+    font-family: "Playfair Display", serif;
+    font-weight: 400;
+}
+h1 {
+    font-size: 4rem;
+}
+h2 {
+    font-size: 2.5rem;
+}
+h3 {
+    font-size: 2.5rem;
+    margin: 0;
+    font-weight: 600;
+}
+h4 {
+    text-transform: uppercase;
+    font-size: 0.75rem;
+    font-weight: 600;
+    margin: 0;
+    color: #B7B8BC;
+}
+nav, header, footer {
+    background-color: #0B0D17;
+}
+nav h3 {
+    font-family: 'Josefin Sans', sans-serif;
+    color: white;
+    font-size: 1.5rem;
+    padding-left: 1rem;
+    font-weight: bold;
+}
+nav {
+    width: 100%;
+    height: 5rem;
+    display: flex;
+    position: fixed;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 2px solid #282B37;
+}
+nav .navbar {
+    font-family: 'Josefin Sans', sans-serif;
+    margin: 0 1.85rem;
+    display: flex;
+    align-items: center;
+}
+nav a {
+    margin: 1rem;
+    color: white;
+    text-decoration: none;
+}
+nav a:hover {
+    text-decoration: underline;
+}
+@media only screen and (max-width: 786px) {
+    .navbar a{
+        display: inline;
+        margin-right: 0;
+    }
+    nav h3 {
+        font-size: 1.2rem;
+    }
+}
+header {
+    width: 100%;
+    min-height: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-image: url("../images/header-bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: white;
+}
+header h1 {
+    
+    min-width: 100%;
+    font-size: 4rem;
+    height: 7rem;
+    color: whitesmoke;
+    line-height: 5rem;
+    background-color: rgba(26, 14, 14, 0.5);
+    text-align: center;
+    padding-top: 1.3rem;
+}
+@media only screen and (max-width: 500px) {
+    header h1 {
+        font-size: 3rem;
+    }
+}
+@media only screen and (max-width: 786px) {
+    header h1 {
+        font-size: 3rem;
+    }
+}
+section {
+    text-align: left;
+    font-size: 1rem;
+    max-width: 100%;
+    padding: 3rem;
+    min-height: 10rem;
+}
+section h3 {
+    color: orange;
+    font-size: 2.3rem;
+}
+@media only screen and (max-width: 786px) {
+    section p {
+        font-size: 1rem;
+        line-height: 1.5rem;
+    }
+    section h3 {
+        color: orange;
+        font-size: 1.3rem;
+    }
+}
+@media only screen and (max-width: 500px) {
+    section p {
+        font-size: 1.2rem;
+        line-height: 1.5rem;
+    }
+    section {
+        min-height: 10rem;
+}
+    
+    section h3 {
+        color: orange;
+        font-size: 1.3rem;
+    }
+}
+
+.gallery {
+    background-color: #0B0D17;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    flex-grow: 1;
+    margin: auto;
+}
+.gallery_pic {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 1rem;
+    margin: 1.4rem;
+    background-color: white;
+    flex: 2;
+}
+.gallery .image_container {
+    min-height: 65%;
+    margin: 0 auto;
+}
+.image_container img {
+    width: 100%;
+    min-height: auto;
+}
+@media only screen and (max-width: 895px) {
+    .gallery {
+        padding: 1rem;
+    }
+}
+@media only screen and (max-width: 760px) {
+     .gallery {
+        flex-flow: column;
+        padding: 0;
+    } 
+}
+@media only screen and (max-width: 500px){
+    .gallery {
+        flex-flow: column;
+        padding: 0;
+    } 
+}
+.testmonial{
+    background-color:antiquewhite;
+    padding: 1.5rem;
+    text-align: left;
+    min-height: 7rem;
+}
+.testmonial h3 {
+    color: black;
+    font-size: 1.8rem;
+}
+.join {
+    background-color: white;
+    margin: 3rem auto;
+}
+.join img {
+    width: 50%;
+    height: auto;
+    display: block;
+    margin: auto;
+}
+.join h3 {
+    color: #0B0D17;
+    text-align: center;
+    font-size: 1.85rem;
+}
+@media only screen and (max-width: 490px){
+    .join h3 {
+        color: red;
+    }
+}
+footer{
+    background-color: #0B0D17;
+    border-bottom: 2px solid #282B37;
+    min-height: 4rem;
+}
+.footernav {
+    font-family: 'Josefin Sans', sans-serif;
+    margin: 1rem 1.85rem;
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+   
+}
+.footernav a {
+    margin: 1rem;
+    color: white;
+    text-decoration: none;
+}
+.footernav a:hover {
+    text-decoration: underline;
+}
